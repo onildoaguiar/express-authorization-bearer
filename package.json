@@ -1,0 +1,28 @@
+{
+  "name": "express-authorization-bearer",
+  "version": "1.0.0",
+  "description": "Bearer authorization token middleware for express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onildoaguiar/express-authorization-bearer.git"
+  },
+  "keywords": [
+    "module",
+    "javascript",
+    "express",
+    "node",
+    "token",
+    "bearer",
+    "authorization"
+  ],
+  "author": "Onildo Aguiar <onildo.aguiar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onildoaguiar/express-authorization-bearer/issues"
+  },
+  "homepage": "https://github.com/onildoaguiar/express-authorization-bearer#readme"
+}
