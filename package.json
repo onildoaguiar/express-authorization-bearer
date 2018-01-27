@@ -1,6 +1,6 @@
 {
   "name": "express-authorization-bearer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bearer authorization token middleware for express.",
   "main": "index.js",
   "scripts": {
