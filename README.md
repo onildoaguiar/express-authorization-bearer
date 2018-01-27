@@ -9,7 +9,7 @@ This module will attempt to extract a bearer token from a request from this loca
 
 * The value from the header `Authorization: Bearer <token>`.
 
-If a token is found, it will be stored on `req.token`.Otherwise, it will abort the request immediately by sending code 401.
+If a token is found, it will be stored on `req.token`. Otherwise, it will abort the request immediately by sending code 401.
 ```js
 const express = require('express');
 const bearerAuthorization = require('express-authorization-bearer');
