@@ -14,11 +14,13 @@ If a token is found, it will be stored on `req.token`. Otherwise, it will abort 
 const express = require('express');
 const bearerAuthorization = require('express-authorization-bearer');
 const app = express();
-const router = app.Router();
+const router = express.Router();
 
-app.use('/', router.get('user/:id', bearerAuthorization, function (req, res) {
-  res.send(`token ${req.token}`);
-}));
+router.get('/user/:id', bearerAuthorization, function (req, res) {
+    res.send(`token ${req.token}`);
+})
+
+app.use('/', router);
 app.listen(3000);
 ```
 # License
